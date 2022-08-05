@@ -1,0 +1,53 @@
+/* link */
+a {
+    text-decoration: none;
+    color: #058ed8;
+}
+a:hover {
+    text-decoration: underline;
+}
+/* buttons */
+.btn {
+    background-color: gray;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    padding: 4px 8px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.ss-btn {
+    background: rgb(179, 67, 214);
+    background: linear-gradient(
+        -45deg,
+        rgba(179, 67, 214, 1) 0%,
+        rgba(0, 151, 238, 1) 100%
+    );
+}
+.ss-btn:hover {
+    background: rgb(205, 99, 238);
+    background: linear-gradient(
+        -45deg,
+        rgba(205, 99, 238, 1) 0%,
+        rgba(65, 185, 255, 1) 100%
+    );
+}
+
+.green-btn {
+    background: rgb(0, 153, 0);
+    background: linear-gradient(
+        145deg,
+        rgba(0, 153, 0, 1) 0%,
+        rgba(5, 142, 216, 1) 100%
+    );
+}
+.green-btn:hover {
+    background: rgb(30, 187, 30);
+    background: linear-gradient(
+        145deg,
+        rgba(30, 187, 30, 1) 0%,
+        rgba(81, 191, 251, 1) 100%
+    );
+}

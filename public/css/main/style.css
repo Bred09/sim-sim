@@ -1,0 +1,127 @@
+.yb-line {
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+    background-color: yellow;
+    color: #2d2d2d;
+    font-weight: bold;
+    padding: 4px 0;
+}
+.yb-line * {
+    margin: 0 10px;
+}
+.yb-line .yb {
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+.header {
+    background: rgb(179, 67, 214);
+    background: linear-gradient(
+        45deg,
+        rgba(179, 67, 214, 1) 0%,
+        rgba(0, 151, 238, 1) 100%
+    );
+    padding: 10px;
+    min-height: 66px;
+}
+
+.header .mobile-box {
+    display: none;
+}
+
+.header .box {
+    max-width: 1350px;
+    margin: 0 auto;
+
+    display: grid;
+    grid: 1fr / repeat(7, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.box .logo img {
+    width: 60px;
+}
+
+.box > div > a {
+    color: #fff !important;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu-items {
+    padding: 4px 16px;
+    border-radius: 20px;
+}
+.menu-items:hover {
+    background: rgb(156, 97, 213);
+    background: linear-gradient(
+        -145deg,
+        rgba(156, 97, 213, 1) 0%,
+        rgba(5, 142, 216, 1) 100%
+    );
+}
+
+
+.wrapper{
+    width: 100%;
+}
+.wrapper .body{
+    width: 100%;
+}
+.slide img{
+    width: 100%;
+}
+
+
+.slick-prev{
+    left: 0 !important;
+    width: 50px !important;
+    height: 50px !important;
+    background: #b343d6 !important;
+    border-radius: 50%;
+    z-index: 9;
+}
+.slick-next{
+    right: 0 !important;
+    width: 50px !important;
+    height: 50px !important;
+    background: #0097ee !important;
+    border-radius: 50%;
+    z-index: 9;
+}
+
+
+
+body {
+    color: silver;
+    background-color: #2d2d2d;
+}
+html,
+body {
+    margin: 0;
+    padding: 0;
+    @font-face {
+        font-family: "FuturaPT";
+        src: local("FuturaPT"), url("/css/font/FuturaPT-Bold.ttf") format("ttf"),
+            url("/css/font/FuturaPT-Bold.woff2") format("woff2"),
+            url("/css/font/FuturaPT-Bold.woff") format("woff"),
+            url("/css/font/FuturaPT-Bold.eot") format("eot");
+    }
+}
+html,
+* {
+    font-family: "Futura PT";
+}
+
+/*Adaptiv*/
+@media screen and (max-width: 1000px) {
+    .header .box {
+        display: none;
+    }
+
+    .header .mobile-box {
+        display: inherit;
+    }
+}
