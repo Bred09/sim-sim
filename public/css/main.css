@@ -51,3 +51,24 @@ a:hover {
         rgba(81, 191, 251, 1) 100%
     );
 }
+.blue-btn {
+    background-color: rgba(0, 151, 238, 1);
+}
+.blue-btn:hover {
+    background-color: rgb(77, 190, 255);
+}
+
+* {
+    scrollbar-color: rgba(179, 67, 214, 0.5) #9d9d9d;
+    scrollbar-width: 1px;
+    padding: 0;
+    margin: 0;
+    font-family: "Futura PT";
+    @font-face {
+        font-family: "FuturaPT";
+        src: local("FuturaPT"), url("/css/font/FuturaPT-Bold.ttf") format("ttf"),
+            url("/css/font/FuturaPT-Bold.woff2") format("woff2"),
+            url("/css/font/FuturaPT-Bold.woff") format("woff"),
+            url("/css/font/FuturaPT-Bold.eot") format("eot");
+    }
+}

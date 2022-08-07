@@ -19,8 +19,8 @@
     background: rgb(179, 67, 214);
     background: linear-gradient(
         45deg,
-        rgba(179, 67, 214, 1) 0%,
-        rgba(0, 151, 238, 1) 100%
+        rgba(179, 67, 214, 1) 35%,
+        rgba(0, 151, 238, 1) 65%
     );
     padding: 10px;
     min-height: 66px;
@@ -61,58 +61,6 @@
         rgba(156, 97, 213, 1) 0%,
         rgba(5, 142, 216, 1) 100%
     );
-}
-
-
-.wrapper{
-    width: 100%;
-}
-.wrapper .body{
-    width: 100%;
-}
-.slide img{
-    width: 100%;
-}
-
-
-.slick-prev{
-    left: 0 !important;
-    width: 50px !important;
-    height: 50px !important;
-    background: #b343d6 !important;
-    border-radius: 50%;
-    z-index: 9;
-}
-.slick-next{
-    right: 0 !important;
-    width: 50px !important;
-    height: 50px !important;
-    background: #0097ee !important;
-    border-radius: 50%;
-    z-index: 9;
-}
-
-
-
-body {
-    color: silver;
-    background-color: #2d2d2d;
-}
-html,
-body {
-    margin: 0;
-    padding: 0;
-    @font-face {
-        font-family: "FuturaPT";
-        src: local("FuturaPT"), url("/css/font/FuturaPT-Bold.ttf") format("ttf"),
-            url("/css/font/FuturaPT-Bold.woff2") format("woff2"),
-            url("/css/font/FuturaPT-Bold.woff") format("woff"),
-            url("/css/font/FuturaPT-Bold.eot") format("eot");
-    }
-}
-html,
-* {
-    font-family: "Futura PT";
 }
 
 /*Adaptiv*/

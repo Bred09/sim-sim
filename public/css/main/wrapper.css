@@ -1,0 +1,153 @@
+/* Slider */
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1350px;
+}
+.wrapper .body {
+    width: 100%;
+}
+.slide img {
+    width: 100%;
+}
+
+.slick-prev {
+    left: 0 !important;
+    width: 50px !important;
+    height: 50px !important;
+    background: #b343d6 !important;
+    border-radius: 50%;
+    z-index: 9;
+}
+.slick-next {
+    right: 0 !important;
+    width: 50px !important;
+    height: 50px !important;
+    background: #0097ee !important;
+    border-radius: 50%;
+    z-index: 9;
+}
+
+/* categories */
+.categories {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    margin: 20px 0;
+    justify-items: center;
+}
+.categories .category {
+    padding: 10px;
+    border-radius: 10px;
+}
+.categories .category:hover {
+    background: rgb(156, 97, 213);
+    background: linear-gradient(
+        -145deg,
+        rgba(156, 97, 213, 1) 0%,
+        rgba(5, 142, 216, 1) 100%
+    );
+    color: #fff;
+    transition: 1s;
+}
+
+.prem {
+    display: grid;
+    justify-content: space-between;
+    margin: 40px 0;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+}
+.prem div {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+}
+.prem div img {
+    margin: 0 20px;
+}
+
+/* products */
+.new-products {
+    display: grid;
+    margin: 40px 0 100px 0;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    justify-items: center;
+}
+a .product {
+    padding: 6px;
+    border-radius: 8px;
+    transition: 0.4s;
+}
+a .product:hover {
+    box-shadow: 0 10px 20px #9d9d9d;
+    transform: translateY(-10px);
+    transition: 0.4s;
+}
+.product .photo-box {
+    background: #e7e7e7;
+    width: 210px;
+    height: 210px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    border-radius: 8px;
+}
+.photo-box .photo {
+    max-width: 100%;
+    max-height: 100%;
+}
+.product .desc {
+    padding: 8px;
+}
+
+/* Описание Сим-Сим */
+.description ul {
+    margin-left: 40px;
+}
+.description li {
+    color: #b343d6;
+}
+.description li span {
+    color: #000;
+}
+
+/* Лучшие поставщики */
+.best-suppliers {
+    margin: 60px 0;
+}
+.best-suppliers .suppls {
+    display: grid;
+    grid-gap: 100px;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+}
+.suppls a div .ava {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 10px #e2e2e2 solid;
+}
+.suppls a div p {
+    margin: 20px 0 0 0;
+}
+div .medal {
+}
+
+/* status */
+.platinum .ava {
+    border-color: #fff !important;
+    box-shadow: 0 30px 60px rgb(115, 115, 115);
+}
+.gold .ava {
+    border-color: rgb(232, 207, 68) !important;
+    box-shadow: 0 30px 60px rgb(232, 207, 68);
+}
+.silver .ava {
+    border-color: rgb(198, 198, 198) !important;
+    box-shadow: 0 30px 60px rgb(113, 113, 113);
+}
+.bronze .ava {
+    border-color: rgb(195, 149, 63) !important;
+    box-shadow: 0 30px 60px rgb(195, 149, 63);
+}
