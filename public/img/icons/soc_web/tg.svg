@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="40"
+   height="40"
+   viewBox="0 0 40 40"
+   version="1.1"
+   id="svg16"
+   sodipodi:docname="tg.svg"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#">
+  <sodipodi:namedview
+     id="namedview18"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     width="40px"
+     inkscape:zoom="11.504"
+     inkscape:cx="22.383519"
+     inkscape:cy="20.775383"
+     inkscape:window-width="1680"
+     inkscape:window-height="987"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg16" />
+  <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+  <desc
+     id="desc4">Created with Sketch.</desc>
+  <defs
+     id="defs11">
+    <linearGradient
+       x1="500"
+       y1="0"
+       x2="500"
+       y2="992.58337"
+       id="linearGradient-1"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#2AABEE"
+         offset="0%"
+         id="stop6" />
+      <stop
+         stop-color="#229ED9"
+         offset="100%"
+         id="stop8" />
+    </linearGradient>
+  </defs>
+  <g
+     id="Artboard"
+     stroke="none"
+     stroke-width="1"
+     fill="none"
+     fill-rule="evenodd"
+     transform="scale(0.04)">
+    <circle
+       id="Oval"
+       fill="url(#linearGradient-1)"
+       cx="500"
+       cy="500"
+       r="500"
+       style="fill:url(#linearGradient-1)" />
+    <path
+       d="m 226.32842,494.72207 c 145.76015,-63.50539 242.95642,-105.37202 291.5888,-125.59991 138.85531,-57.75473 167.70826,-67.78735 186.51421,-68.11863 4.13619,-0.0729 13.38441,0.95221 19.37502,5.81318 5.05835,4.1045 6.4501,9.6491 7.1161,13.54062 0.666,3.89152 1.49533,12.7565 0.83608,19.68334 -7.52462,79.06182 -40.08353,270.924 -56.64765,359.4746 -7.0089,37.46907 -20.80964,50.03226 -34.17036,51.26174 -29.03594,2.67193 -51.0845,-19.18898 -79.20723,-37.62377 -44.0065,-28.84682 -68.86738,-46.80406 -111.58332,-74.95323 -49.36565,-32.53123 -17.36395,-50.41096 10.76939,-79.63145 7.36263,-7.64714 135.29562,-124.01208 137.77177,-134.5682 0.30968,-1.32023 0.59708,-6.24138 -2.32649,-8.83993 -2.92357,-2.59855 -7.23851,-1.70995 -10.35229,-1.00323 -4.41369,1.00174 -74.71466,47.46807 -210.9029,139.39899 -19.95469,13.70243 -38.02904,20.37872 -54.22303,20.02886 -17.85257,-0.3857 -52.19377,-10.09412 -77.72291,-18.39264 -31.31254,-10.17847 -56.19913,-15.55991 -54.03206,-32.8461 1.12874,-9.00372 13.52769,-18.2118 37.19687,-27.62424 z"
+       id="Path-3"
+       fill="#ffffff" />
+  </g>
+  <metadata
+     id="metadata835">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="" />
+    </rdf:RDF>
+  </metadata>
+</svg>

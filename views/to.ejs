@@ -2,6 +2,9 @@
 <html>
     <head>
         <title>Sim-Sim: open up!</title>
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <link
             rel="icon"
@@ -10,7 +13,11 @@
         />
         <link rel="stylesheet" href="/css/main/header.css" />
         <link rel="stylesheet" href="/css/main/wrapper.css" />
+        <link rel="stylesheet" href="/css/main/footer.css" />
         <link rel="stylesheet" href="/css/main.css" />
+        
+        <!-- Yandex maps -->
+        <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=2fe09f8c-1a97-42e2-be7f-ad1d5b14aa76" type="text/javascript"></script>
     </head>
 
     <body>
@@ -504,20 +511,112 @@
                 </div>
 
                 <!-- Maps -->
+                <div id="ykarta"></div>
+                <style>
+                    #ykarta{
+                        width: 100%;
+                        height: 600px;
+                        padding: 0;
+                        margin: 0;
+                        background-color: rgb(0, 0, 0);
+                    }
+                </style>
                 
 
-   
+            </div>
+        </div>
 
-
-
-                <div class="oplata">
-                    <a
-                        href="https://auth.robokassa.ru/Merchant/Index.aspx?MerchantLogin=sim-sim.vip&InvId=0&Culture=ru&Encoding=utf-8&OutSum=0,00&SignatureValue=702f2ff0860dbe8a96adb8fdd21ca299"
-                    >
-                        <button class="btn">Оплатить</button>
-                    </a>
+        <!-- Footer -->
+        <div class="footer">
+            <div class="info-ftr">
+                <a class="logo" href="/"></a><p>Sim-Sim, open up!</p><br>
+                <div class="soc-web">
+                    <a href="https://wa.me/+79655314777" class="wa"></a>
+                    <a href="https://vk.com/publicsimsimvip" class="vk"></a>
+                    <a href="https://t.me/sim_sim_off" class="tg"></a>
+                </div><br>
+                <div class="contact">
+                    <a href="tel:+79068763435">+7 (906) 876-34-35</a>
+                </div>
+                <div class="get-call">
+                    <button class="btn green-btn">Заказать звонок</button>
+                </div><br>
+                <p><a class="email" href="mailto:info@sim-sim.vip">info@sim-sim.vip</a></p>
+                <br>
+                <div class="company-links">
+                    <a href="#">Политика конфиденциальности</a>
+                <a href="#">Пользовательское соглашение</a>
+                <a href="#">Реквизиты компании</a>
+                <a href="#">Договор-оферта</a>
                 </div>
             </div>
+            <div class="catalog-ftr">
+                <ul><h3>Компания</h3>
+                    <a href="/tarifs">
+                        <li>Тарифы</li>
+                    </a>
+                    <a href="/delivery">
+                        <li>Условия доставки</li>
+                    </a>
+                    <a href="/stocks">
+                        <li>Акции</li>
+                    </a>
+                    <a href="/suppliers">
+                        <li>Поставщики</li>
+                    </a>
+                    <a href="/about">
+                        <li>О нас</li>
+                    </a>
+                    <a href="/contacs">
+                        <li>Контакты</li>
+                    </a>
+                </ul>
+                <ul><h3>Каталог</h3>
+                    <a href="/hats">
+                        <li>Головные уборы</li>
+                    </a>
+                    <a href="/clothes">
+                        <li>Одежда</li>
+                    </a>
+                    <a href="/shoes">
+                        <li>
+                            
+                            Обувь
+                            </li>
+                    </a>
+                    <a href="/jewelry">
+                        <li>Акссесуары</li>
+                    </a>
+                    <a href="/backpacks">
+                        <li>Рюкзаки</li>
+                    </a>
+                    <a href="/chemicals">
+                        <li>Бытовая химия</li>
+                    </a>
+                    <a href="/toys">
+                        <li>Игрушки</li>
+                    </a>
+                    <a href="/textile">
+                        <li>Текстиль</li>
+                    </a>
+                    <a href="/bazar">
+                        <li>Базар</li>
+                    </a>
+                    <a href="/other">
+                        <li>Прочее</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="mobile-apps-ftr">
+                <h3>Скачайте наше приложение из популярных магазинов бесплатно</h3>
+                <div>
+                    <a href="https://play.google.com/store/apps/details?id=com.simsim.vip&hl=ru&gl=US"><img src="/img/icons/mobile_apps/gp.png"></a>
+                <a href="https://apps.apple.com/ru/app/sim-sim/id1506082910"><img src="/img/icons/mobile_apps/as.png"></a>
+                </div>
+            </div>
+            <br>
+            <br>
+            <p>© Copyright 2022. Все права защищены.</p>
         </div>
 
         <!-- slick styles -->

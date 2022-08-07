@@ -1,0 +1,113 @@
+.footer {
+    background: #dbdbdb;
+    padding: 20px;
+    margin: 100px auto 0 auto;
+    max-width: 1350px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    display: grid;
+    justify-items: center;
+}
+
+/* info-ftr */
+.info-ftr .logo,
+.soc-web a {
+    display: block;
+    position: relative;
+    width: 40px;
+    height: 40px;
+}
+.info-ftr .logo::before {
+    background-image: url("/img/logo/sim-sim_newLogo_mini.svg");
+}
+.info-ftr .logo::after {
+    opacity: 0;
+    background-image: url("/img/logo/sim-sim_newLogo_mini_gradient.svg");
+}
+.info-ftr .logo:hover::after {
+    opacity: 1 !important;
+    visibility: visible;
+}
+.info-ftr .logo::before,
+.info-ftr .logo::after,
+.soc-web a::after,
+.soc-web a::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.soc-web .wa:hover::after,
+.vk:hover::after,
+.tg:hover::after {
+    opacity: 1 !important;
+    visibility: visible;
+}
+.soc-web {
+    display: flex;
+    justify-content: space-evenly;
+}
+/* WhatsApp */
+.soc-web .wa::before {
+    background-image: url("/img/icons/soc_web/wa_bw.svg");
+}
+.soc-web .wa::after {
+    background-image: url("/img/icons/soc_web/wa.svg");
+    opacity: 0;
+}
+/* VK */
+.soc-web .vk::before {
+    background-image: url("/img/icons/soc_web/vk_bw.svg");
+}
+.soc-web .vk::after {
+    background-image: url("/img/icons/soc_web/vk.svg");
+    opacity: 0;
+}
+/* Telegram */
+.soc-web .tg::before {
+    background-image: url("/img/icons/soc_web/tg_bw.svg");
+}
+.soc-web .tg::after {
+    background-image: url("/img/icons/soc_web/tg.svg");
+    opacity: 0;
+}
+
+.company-links {
+    display: grid;
+}
+/* /info-ftr */
+
+/* catalog-ftr */
+.catalog-ftr ul {
+    color: #d343d6;
+}
+.footer .catalog-ftr {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+/* /catalog-ftr */
+
+/* apps-ftr */
+.mobile-apps-ftr {
+    display: grid;
+}
+.mobile-apps-ftr img {
+    width: 40%;
+}
+/* /apps-ftr */
+
+/*Adaptiv*/
+@media screen and (min-width: 1000px) {
+    .footer {
+        display: grid;
+        grid: auto / 1fr 1fr 1fr;
+    }
+}

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="40"
+   height="40"
+   fill="none"
+   version="1.1"
+   id="svg20"
+   sodipodi:docname="vk_bw.svg"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview22"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     width="40px"
+     inkscape:zoom="11.750451"
+     inkscape:cx="29.998849"
+     inkscape:cy="20.169439"
+     inkscape:window-width="1680"
+     inkscape:window-height="987"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2">
+    <path
+       id="path4"
+       mask="none"
+       style="stroke-width:1.6667;fill:#ffffff;fill-opacity:1"
+       d="M 19.166016 0 C 10.098972 0 5.5813666 0.00078115 2.78125 2.8007812 C -0.00219929 5.6007812 -0.001953125 10.132683 -0.001953125 19.166016 L -0.001953125 20.867188 C -0.001953125 29.867188 -0.001288565 34.399219 2.7988281 37.199219 C 5.5989447 39.999219 10.132307 40 19.166016 40 L 20.832031 40 C 29.899075 40 34.416681 39.999219 37.216797 37.199219 C 40.000247 34.399219 40 29.867317 40 20.833984 L 40 19.132812 C 40 10.132812 40.000247 5.6007813 37.216797 2.8007812 C 34.416681 0.00078115 29.882408 0 20.832031 0 L 19.166016 0 z M 6.7480469 12.166016 L 11.316406 12.166016 C 11.466413 19.799349 14.833223 23.032553 17.5 23.699219 L 17.5 12.166016 L 21.798828 12.166016 L 21.798828 18.75 C 24.432272 18.466667 27.19944 15.466016 28.132812 12.166016 L 32.433594 12.166016 A 12.700529 12.7 0 0 1 26.582031 20.466797 A 13.167215 13.166667 0 0 1 33.433594 28.816406 L 28.699219 28.816406 A 8.2336763 8.2333335 0 0 0 21.798828 22.867188 L 21.798828 28.816406 L 21.283203 28.816406 C 12.166157 28.816406 6.9647226 22.566016 6.7480469 12.166016 z " />
+  </g>
+  <defs
+     id="defs18">
+    <clipPath
+       id="new_logo_vk_with_text__a">
+      <path
+         fill="#ffffff"
+         transform="translate(0.001)"
+         d="M 0,0 H 136 V 24 H 0 Z"
+         id="path12" />
+    </clipPath>
+    <clipPath
+       id="new_logo_vk_with_text__b">
+      <path
+         fill="#ffffff"
+         transform="translate(0,-12)"
+         d="M 0,0 H 136 V 48 H 0 Z"
+         id="path15" />
+    </clipPath>
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="Layer 1" />
+</svg>
